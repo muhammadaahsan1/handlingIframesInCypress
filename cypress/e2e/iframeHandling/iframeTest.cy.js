@@ -18,6 +18,6 @@ describe("test suite: iframe testing", ()=>{
 
         cy.wait(5000)
         iframe.clear().type("Welcome {ctrl+a}");
-        cy.get("[aria-label='Bold']").click();
+        cy.get("[aria-label='Italic']").click();
     })
 })
