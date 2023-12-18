@@ -28,3 +28,6 @@
 
 Cypress.Commands.add('getIframe', (iframeLocatorComingFromTestFile)=>{
     return cy.get(iframeLocatorComingFromTestFile).its('0.contentDocument.body').should('be.visible').then(cy.wrap)});
+
+
+    
